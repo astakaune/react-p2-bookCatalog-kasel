@@ -8,10 +8,8 @@ const showBook = (data) => {
 		// category.innerHTML = renderGroup(type); //reikia prideti parametra ir issiusti funkcijai apie suskaiciuotas knygas. zr.zemiau
 		category.innerHTML = renderGroup(type, data[type].length);
 		document.querySelector(".accordion").appendChild(category);
-		console.log(" ");
-		console.log(`${type}:`);
+		// console.log(`${type}:`);
 		for (let book of data[type]) {
-			// console.log(book);
 			for (let data in book) {
 				if (book[data] === 2021) {
 					book.name += " (Nauja knyga)";

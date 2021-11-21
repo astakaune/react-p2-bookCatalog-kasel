@@ -9,7 +9,7 @@ _with MARTYNAS KAŠELIONIS from BTI _
 
 This project is for educational porpuses only . Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://github.com/astakaune/react-starterkit-kasel
+Site published at: https://github.com/astakaune/react-p2-bookCatalog-kasel
 
 
 ## Project VSC terminal commands:

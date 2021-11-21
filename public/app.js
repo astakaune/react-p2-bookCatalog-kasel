@@ -128,7 +128,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 var renderBooks = function renderBooks(prop, content) {
-  return "\n<li>\n".concat(prop, ":").concat(content, "\n</li>\n");
+  return "\n<li>\n".concat(prop, ": ").concat(content, "\n</li>\n");
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (renderBooks);
@@ -182,9 +182,7 @@ var showBook = function showBook(data) {
     category.className = "card"; // category.innerHTML = renderGroup(type); //reikia prideti parametra ir issiusti funkcijai apie suskaiciuotas knygas. zr.zemiau
 
     category.innerHTML = (0,_renderGroup__WEBPACK_IMPORTED_MODULE_0__["default"])(type, data[type].length);
-    document.querySelector(".accordion").appendChild(category);
-    console.log(" ");
-    console.log("".concat(type, ":"));
+    document.querySelector(".accordion").appendChild(category); // console.log(`${type}:`);
 
     var _iterator = _createForOfIteratorHelper(data[type]),
         _step;
@@ -193,7 +191,6 @@ var showBook = function showBook(data) {
       for (_iterator.s(); !(_step = _iterator.n()).done;) {
         var book = _step.value;
 
-        // console.log(book);
         for (var _data in book) {
           if (book[_data] === 2021) {
             book.name += " (Nauja knyga)";
