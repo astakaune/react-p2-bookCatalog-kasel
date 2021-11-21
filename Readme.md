@@ -16,7 +16,7 @@ Site published at: https://github.com/astakaune/react-p2-bookCatalog-kasel
 
 - npm i
 - npm i jquery
-- npm install popper.js
+- npm i popper.js
 - npx mix
 - npx mix watch
 
